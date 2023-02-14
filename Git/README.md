@@ -9,4 +9,5 @@ git下载地址：<https://git-scm.com/downloads>
 
 ## Git简明指南
 
-[Git简明指南](https://rogerdudler.github.io/git-guide/index.zh.html "Git简明指南")
+- Git简明指南：<https://rogerdudler.github.io/git-guide/index.zh.html>
+- Git教程-廖雪峰的官方网站：<https://www.liaoxuefeng.com/wiki/896043488029600>
