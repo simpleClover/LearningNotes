@@ -140,6 +140,10 @@ git rm命令用于删除文件
 
 ## git merge
 
+  
+`git merge [branch]`<br>
+合并`branch`到当前分支
+
 `git merge [alias]/[branch]`<br>
 将远程仓库`[alias]`的`[branch]`分支合并到当前分支
 
@@ -158,6 +162,38 @@ git rm命令用于删除文件
 `git push [origin] --delete [branch]`<br>
 删除远程主机`origin`的`branch`分支
 
-## git branch [branch-name]
+## git branch
 
+`git branch`<br>
+列出本地分支
+
+`git branch [branch-name]`<br>
 创建一个叫做`branch-name`的分支
+  
+`git branch -d [branch-name]`<br>
+删除`branch-name`分支
+
+## git checkout
+
+`git checkout <-b> [branch-name]`<br>
+切换到`branch-name`分支<br>
+添加`-b`参数时将自动创建该分支
+
+## git tag
+
+`git tag`<br>
+查看当前所有标签
+
+`git tag <-a> [tag-name]`<br>
+给当前快照打上名为`tag-name`的标签<br>
+可用`-a`参数表示提交一个带注解的标签
+
+`git tag <-a> [tag-name] -m [message]`<br>
+指定标签信息命名
+  
+`git tag -s [tag-name] -m [message]`<br>
+PGP签名标签命名
+  
+## git reflog
+
+查看历史命令
