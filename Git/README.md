@@ -28,8 +28,7 @@ git下载地址：<https://git-scm.com/downloads>
 - [git fetch](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-remote "git fetch")
 - [git push](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-push "git push")
 - [git merge](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-merge "git merge")
-- [git pu](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-pull "git pull")
-- [git push](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-push-1 "git push")
+- [git pull](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-pull "git pull")
 - [git branch](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-branch "git branch")
 - [git checkout](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-checkout "git branch")
 - [git tag](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-tag "git tag")
@@ -157,11 +156,6 @@ git rm命令用于删除文件
 `git fetch [alias]`<br>
 从远程仓库下载新分支与数据
 
-## git push
-
-`git push [alias] [branch]`<br>
-推送`[branch]`分支到远程仓库`[alias]`的`[branch]`分支
-
 ## git merge
 
   
@@ -178,13 +172,13 @@ git rm命令用于删除文件
 
 ## git push
 
+`git push [origin] --delete [branch]`<br>
+删除远程主机`origin`的`branch`分支
+
 `git push [origin] [remote-branch]:[local-branch]`<br>
 将本地`local-branch`分支推送到远程主机`origin`的`remote-branch`分支
 
 使用`--force`参数可以在远程版本与本地版本有差异的时候强制推送<br>
-
-`git push [origin] --delete [branch]`<br>
-删除远程主机`origin`的`branch`分支
 
 ## git branch
 
