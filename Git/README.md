@@ -109,5 +109,55 @@ git rm命令用于删除文件
 用于移动或重命名一个文件、目录或软连接
 
 `git mv -f [file] [newfile]`<br>
-如果新文件已存在，但还是要重命名，可以使用`-f`参数<br>
-注：这会覆盖源文件
+如果新文件已存在，但仍要重命名，可使用`-f`参数，但这会覆盖源文件
+
+## git remote
+
+`git remote -v`<br>
+显示所有远程仓库
+
+`git remove show [remote]`<br>
+显示某个远程仓库的信息
+
+`git remote add [shortname] [url]`<br>
+添加远程版本库，其中`[shortname]`是本地版本库
+
+`git remote rm [shortname]`<br>
+删除远程仓库
+
+`git remote rename [old_name] [new_name]`<br>
+重命名
+
+## git fetch
+
+`git fetch [alias]`<br>
+从远程仓库下载新分支与数据
+
+## git push
+
+`git push [alias] [branch]`<br>
+推送`[branch]`分支到远程仓库`[alias]`的`[branch]`分支
+
+## git merge
+
+`git merge [alias]/[branch]`<br>
+将远程仓库`[alias]`的`[branch]`分支合并到当前分支
+
+## git pull
+
+`git pull [origin] [remote-branch]:[local-branch]`<br>
+将远程主机`origin`的`remote-branch`分支合并到本地`local-branch`分支
+
+## git push
+
+`git push [origin] [remote-branch]:[local-branch]`<br>
+将本地`local-branch`分支推送到远程主机`origin`的`remote-branch`分支
+
+使用`--force`参数可以在远程版本与本地版本有差异的时候强制推送<br>
+
+`git push [origin] --delete [branch]`<br>
+删除远程主机`origin`的`branch`分支
+
+## git branch [branch-name]
+
+创建一个叫做`branch-name`的分支
