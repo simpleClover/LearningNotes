@@ -46,8 +46,28 @@ git下载地址：<https://git-scm.com/downloads>
 
 ## git log
 
-查看提交历史记录<br>
-可用`--pretty=oneline`参数将每个记录以一行输出
+查看提交历史记录
+
+可用`--oneline`参数查看历史记录的简洁版本<br>
+可用`--graph`参数查看<br>
+可用`--reverse`参数逆向显示日志<br>
+
+`git log [--author=name]`<br>
+可用于查找指定用户的提交日志
+
+`git log [--before={3.weeks.ago} --after={2010-04-18}]`<br>
+查找三周前到2010年4月18日之后的提交日志
+
+`git log --no-merges`<br>
+隐藏合并提交记录
+
+`git log [-n]`<br>
+显示前n条提交记录
+
+## git blame
+
+`git blame [file]`
+以列表形式查看文件的历史修改记录
 
 ## git diff
 
@@ -82,3 +102,12 @@ git rm命令用于删除文件
 
 `git rm -r *`<br>
 可以递归删除，如果后面跟着一个目录做参数，则会递归删除所有子目录和文件
+
+## git mv
+
+`git mv [file] [newfile]`<br>
+用于移动或重命名一个文件、目录或软连接
+
+`git mv -f [file] [newfile]`<br>
+如果新文件已存在，但还是要重命名，可以使用`-f`参数<br>
+注：这会覆盖源文件
