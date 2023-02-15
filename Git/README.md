@@ -11,6 +11,30 @@ git下载地址：<https://git-scm.com/downloads>
 - Git教程-廖雪峰的官方网站：<https://www.liaoxuefeng.com/wiki/896043488029600>
 - Git教程|菜鸟教程：<https://www.runoob.com/git/git-tutorial.html>
 
+## 快速导航
+
+- [git init](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-init "git init")
+- [git clone](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-clone-url "git clone")
+- [git add](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-add "git add")
+- [git commit](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-commit-files--m-message "git commit")
+- [git status](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-status "git status")
+- [git log](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-log "git log")
+- [git blame](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-blame "git blame")
+- [git diff](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-diff "git diff")
+- [git reset](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-reset---soft----mixed----hard-head- "git reset")
+- [git rm](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-rm "git rm")
+- [git mv](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-mv "git mv")
+- [git remote](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-remote "git remote")
+- [git fetch](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-remote "git fetch")
+- [git push](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-push "git push")
+- [git merge](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-merge "git merge")
+- [git pu](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-pull "git pull")
+- [git push](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-push-1 "git push")
+- [git branch](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-branch "git branch")
+- [git checkout](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-checkout "git branch")
+- [git tag](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-tag "git tag")
+- [git reflog](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git-reflog "git reflog")
+
 ## git init
 
 在当前目录初始化git仓库
@@ -197,3 +221,5 @@ PGP签名标签命名
 ## git reflog
 
 查看历史命令
+
+[点我返回页首](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git "点我返回页首")
