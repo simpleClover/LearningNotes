@@ -3,6 +3,7 @@
 Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
 分布式相比于集中式的最大区别在于开发者可以提交到本地，每个开发者可以通过克隆(`git clone`)，在本地机器上拷贝一个完整的Git仓库。<br>
 
+git官网：<https://git-scm.com/><br>
 git下载地址：<https://git-scm.com/downloads>
 
 ## Git学习网站
@@ -216,4 +217,6 @@ PGP签名标签命名
 
 查看历史命令
 
-[点我返回页首](https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git "点我返回页首")
+<hr>
+
+### <p align="right"><a href = "https://github.com/simpleClover/LearningNotes/blob/main/Git/README.md#git">返回页面顶部</a></p>
