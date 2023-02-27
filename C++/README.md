@@ -20,7 +20,3 @@ C++拥有计算机运行的实用性特征，同时还致力于提高大规模�
 - 《Effective C++》
 - 《Essential C++》
 - 《C++ Templates中文版》
-
-## 说明
-
-这个笔记是按照C++ Primer Plus（第六版）中文版的目录顺序写的
