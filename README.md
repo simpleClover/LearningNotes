@@ -4,6 +4,8 @@
 如果有错误，欢迎大家指出
 
 包括
+- Git
+- Markdown
 - C++
 - Python
     
